@@ -13,6 +13,7 @@
 		D789A16A1ED283DA0085AF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D789A1681ED283DA0085AF97 /* Main.storyboard */; };
 		D789A16C1ED283DA0085AF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D789A16B1ED283DA0085AF97 /* Assets.xcassets */; };
 		D789A16F1ED283DA0085AF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D789A16D1ED283DA0085AF97 /* LaunchScreen.storyboard */; };
+		D789A1771ED287110085AF97 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D789A1761ED287110085AF97 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D789A16B1ED283DA0085AF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D789A16E1ED283DA0085AF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D789A1701ED283DA0085AF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D789A1761ED287110085AF97 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D789A15E1ED283DA0085AF97 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D789A1761ED287110085AF97 /* background.png */,
 				D789A1621ED283DA0085AF97 /* AppDelegate.h */,
 				D789A1631ED283DA0085AF97 /* AppDelegate.m */,
 				D789A1651ED283DA0085AF97 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D789A16F1ED283DA0085AF97 /* LaunchScreen.storyboard in Resources */,
+				D789A1771ED287110085AF97 /* background.png in Resources */,
 				D789A16C1ED283DA0085AF97 /* Assets.xcassets in Resources */,
 				D789A16A1ED283DA0085AF97 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +315,7 @@
 				D789A1751ED283DA0085AF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
